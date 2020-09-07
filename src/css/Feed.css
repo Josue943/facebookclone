@@ -1,0 +1,12 @@
+.feed {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 50px;
+  width: 700px;
+}
+
+.posts-container {
+  min-height: 400px;
+}

@@ -1,0 +1,25 @@
+.MuiDialog-root #alert-dialog-title p {
+  font-weight: bold;
+  font-size: 23px;
+  border-bottom: 1px solid gray;
+}
+
+.MuiDialog-root #alert-dialog-description p {
+  color: black;
+}
+
+.MuiDialog-root button {
+  padding: 8px 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  font-size: 14px;
+  color: #1877f2;
+  outline-width: 0;
+}
+
+.MuiDialog-root .btn-delete {
+  background: #1877f2;
+  color: white;
+}

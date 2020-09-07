@@ -4,9 +4,14 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import { AuthProvider } from './context/AuthContext';
+import reducer, { initialState } from './context/reducer';
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AuthProvider initialState={initialState} reducer={reducer}>
+      <App />
+    </AuthProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

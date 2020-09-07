@@ -1,0 +1,74 @@
+.post-options {
+  border-top: 1px solid var(--bgColor);
+  border-bottom: 1px solid var(--bgColor);
+  border-width: 0.2px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: medium;
+  color: gray;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.post-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  flex: 1;
+}
+
+.post-option > p {
+  margin-left: 5px;
+}
+
+.post-option:hover {
+  background-color: var(--bgColor);
+  border-radius: 10px;
+}
+
+.post-counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.post-likes-counter {
+  display: flex;
+  align-items: center;
+}
+
+.post-likes-counter > h4 {
+  margin-left: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.post-counter > p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.post-likes {
+  background: #2e81f4;
+  width: 25px;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-likes > .MuiSvgIcon-root {
+  font-size: 12px;
+  color: white;
+}
+
+.liked {
+  color: #2e81f4;
+}
+
+.post-comments .comment + .comment {
+  padding-top: 0;
+}
